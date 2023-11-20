@@ -1,0 +1,14 @@
+public class point{
+     
+     int ordone;
+     int absise;
+
+    public point( int ordone ,int absise) {
+        this.ordone = ordone;
+        this.absise = absise;
+        
+    }
+
+    public static norme () {
+         return sqrt ((this.ordone x this.ordone) +  (this.absise x  this.absise))
+    }
