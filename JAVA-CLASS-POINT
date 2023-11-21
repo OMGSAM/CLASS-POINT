@@ -9,6 +9,9 @@ public class point{
         
     }
 
-    public static norme () {
-         return sqrt ((this.ordone x this.ordone) +  (this.absise x  this.absise))
+    public float  norme ( ) {
+         return Math.sqrt ((this.ordone x this.ordone) +  (this.absise x  this.absise));
+    }
+    public  float  distance (int A,int B ) {
+         return Math.sqrt ((this.ordone -A)  *  * 2  +  (this.absise -B)  *  * 2);
     }
